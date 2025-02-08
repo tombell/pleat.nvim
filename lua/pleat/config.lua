@@ -11,6 +11,7 @@ local defaults = {
   foldend_exclude_filetypes = {
     "markdown",
     "python",
+    "toml",
     "yaml",
   },
 }
