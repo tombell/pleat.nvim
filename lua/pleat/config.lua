@@ -2,9 +2,9 @@
 local M = {}
 
 ---@class pleat.Config
----@field fill_char string
----@field collapsed_char string
----@field foldend_exclude_filetypes string[]
+---@field fill_char? string
+---@field collapsed_char? string
+---@field foldend_exclude_filetypes? string[]
 local defaults = {
   fill_char = " ",
   collapsed_char = "…",
